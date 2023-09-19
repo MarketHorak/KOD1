@@ -1,0 +1,108 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair Display+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,700;0,800;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,700;0,800;1,600;1,700;1,800&display=swap');
+
+
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', serif;
+ /*  font-family: 'Montserrat', sans-serif; */
+ /*  font-family: 'Playfair Display', serif; */
+  font-weight: 500;
+  letter-spacing: 1px;
+ 
+}
+body {
+  background-color: rgb(188, 188, 188);
+}
+
+main {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 25% 1fr 25%;
+  grid-column-gap: 1rem;
+}
+
+.personal, .skills, .it, .languages {
+  padding: 1rem;
+  font-weight: 800; 
+}
+
+.personal{
+  line-height: 2rem;
+}
+.left {
+  background-color: rgb(255, 255, 255);
+}
+ul {
+  list-style: none;
+}
+
+
+.left-image {
+  position: relative;
+
+  /* max-height: 50px; */
+  /* margin: auto; */
+}
+.left-image img {
+  width: 50%;
+  border-radius:10rem;
+ /*  margin-left: 5rem; */
+ align-items: center;
+}
+.left-image h2 {
+  position: absolute;
+  /* color: rgb(10, 189, 199); */
+  transform: rotate(-90deg);
+  justify-content:center;
+  top:8rem;
+  left:14rem;
+
+  /* left: 1rem; */
+  /*   margin-right: 10rem; */
+}
+hr {
+  margin:0;
+  padding:0;
+}
+
+progress {
+color:rgb(10, 189, 199);
+}
+/*  // right -----------------------------   */
+.right {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
+.experience, .external {
+  line-height: 1.4rem;
+}
+.experience h2, .external h2{
+  line-height: 2rem;
+  padding-bottom: 0.6rem;
+  color: rgb(10, 189, 199);;
+}
+.external, .education {
+  margin-top: 2rem;
+}
+/* .education {
+  grid-column: 50%;
+} */
+.work {
+  /* padding-bottom: 1rem; */
+  padding-top:1rem;
+  font-weight: bold;
+  font-weight: 900;
+}
+.date{
+  font-weight: 800;
+  color: rgb(10, 189, 199);
+}
