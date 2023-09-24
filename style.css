@@ -5,9 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,700;0,800;1,600;1,700;1,800&display=swap');
 
 
-
-*,
-body {
+/*  ------------// OBECNE NASTAVENI  -----------------------------   */
+*
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,8 +16,8 @@ body {
  /*  font-family: 'Playfair Display', serif; */
   font-weight: 500;
   letter-spacing: 1px;
- 
 }
+
 body {
   background-color: rgb(188, 188, 188);
 }
@@ -28,6 +28,24 @@ main {
   grid-template-columns: 25% 1fr 25%;
   grid-column-gap: 1rem;
 }
+
+ul {
+  list-style: none;
+}
+
+hr {
+  margin:0;
+  padding:0;
+}
+h2 {
+  line-height: 2rem;
+  padding-bottom: 0.6rem;
+  color: rgb(10, 189, 199);
+
+}
+
+/* ------------ // NASTAVENI left -----------------------------   */
+
 
 .personal, .skills, .it, .languages {
   padding: 1rem;
@@ -40,49 +58,56 @@ main {
 .left {
   background-color: rgb(255, 255, 255);
 }
-ul {
-  list-style: none;
-}
-
 
 .left-image {
-/*   position: relative;
- */
   /* max-height: 50px; */
   margin: 1rem;
-  justify-content: center;
+  /* justify-content: center; ----------------- NEFUNGUJE */
 }
 .left-image img {
   width: 50%;
   border-radius:15rem;
- /*  margin-left: 5rem; */
+
+   /*  margin-left: 5rem; */
  
 }
-.left-image h2 {
-  position: absolute;
-  /* color: rgb(10, 189, 199); */
-  transform: rotate(-90deg);
-  justify-content:center;
-  top:8rem;
-  left:14rem;
+#sticky {
+ position: fixed;
+ transform: rotate(-90deg);
+ 
+  top:10rem;
+  left:22rem;
 
   /* left: 1rem; */
   /*   margin-right: 10rem; */
 }
-hr {
-  margin:0;
-  padding:0;
+
+
+a {
+  text-decoration: none;
+  color: rgb(5, 96, 96);
 }
-progress::-webkit-progress-bar {
+a:hover {
+  color:rgb(10, 189, 199);
+}
+
+::-moz-progress-bar{
+color:rgb(10, 189, 199);
+} 
+/* progress::-webkit-progress-bar {
   background: lightgrey;
-}
+} */
 /* .p {
 color:rgb(10, 189, 199);
 } */
+/* .p */
 /* progress {
 background-color:rgb(86, 226, 234);
 } */
-/*  // right -----------------------------   */
+
+
+/*  //  ------------NASTAVENI  right -----------------------------   */
+
 .right {
   background-color: rgb(255, 255, 255);
   padding: 1rem;
