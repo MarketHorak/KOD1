@@ -46,16 +46,17 @@ ul {
 
 
 .left-image {
-  position: relative;
-
+/*   position: relative;
+ */
   /* max-height: 50px; */
-  /* margin: auto; */
+  margin: 1rem;
+  justify-content: center;
 }
 .left-image img {
   width: 50%;
-  border-radius:10rem;
+  border-radius:15rem;
  /*  margin-left: 5rem; */
- align-items: center;
+ 
 }
 .left-image h2 {
   position: absolute;
@@ -72,10 +73,15 @@ hr {
   margin:0;
   padding:0;
 }
-
-progress {
-color:rgb(10, 189, 199);
+progress::-webkit-progress-bar {
+  background: lightgrey;
 }
+/* .p {
+color:rgb(10, 189, 199);
+} */
+/* progress {
+background-color:rgb(86, 226, 234);
+} */
 /*  // right -----------------------------   */
 .right {
   background-color: rgb(255, 255, 255);
@@ -85,11 +91,18 @@ color:rgb(10, 189, 199);
 .experience, .external {
   line-height: 1.4rem;
 }
-.experience h2, .external h2{
+
+h2 {
   line-height: 2rem;
   padding-bottom: 0.6rem;
-  color: rgb(10, 189, 199);;
+  color: rgb(10, 189, 199);
+
 }
+/* .experience h2, .external h2{
+  line-height: 2rem;
+  padding-bottom: 0.6rem;
+  color: rgb(10, 189, 199);
+} */
 .external, .education {
   margin-top: 2rem;
 }
