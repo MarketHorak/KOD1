@@ -145,7 +145,7 @@ h2 {
   color: rgb(10, 189, 199);
 }
 
-@media (min-width:380px) and (max-width:768px) {
+@media /* (min-width:380px) and */ (max-width:768px) {
   main {
     margin: 1rem;
     display: grid;
