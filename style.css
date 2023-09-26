@@ -90,10 +90,24 @@ a {
 a:hover {
   color:rgb(10, 189, 199);
 }
+#p1::-webkit-progress-value {
+  background-color: red;
+}
+#p1::-webkit-progress-value {
+  background-color: red;
+}
+/* #p::-webkit-progress-value {
+  background-color: rgb(11, 219, 230);
+} */
+progress::-webkit-progress-value {
+  background-color: red;
+}
 
-::-moz-progress-bar{
-color:rgb(10, 189, 199);
-} 
+
+/* ::-moz-progress-bar */
+/* #p {
+background-color:rgb(10, 189, 199);
+}  */
 /* progress::-webkit-progress-bar {
   background: lightgrey;
 } */
@@ -150,10 +164,16 @@ h2 {
     margin: 1rem;
     display: grid;
     grid-template-columns:  1fr ;
-   
   }
-
+  #sticky {
+    position: fixed;
+    transform: rotate(-90deg);
+    
+     top:7rem;
+     left:20rem;
+  }
 }
+
 @media (min-width:769px) and (max-width:1400px) {
   main {
     margin: 1rem;
@@ -162,5 +182,11 @@ h2 {
     grid-column-gap: 1rem;
    
   }
-
+  #sticky {
+    position: fixed;
+    transform: rotate(-90deg);
+    
+     top:7rem;
+     left:23rem;
+  }
 }
