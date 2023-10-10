@@ -68,7 +68,7 @@ h2 {
 .skills:hover,
 .it:hover,
 .languages:hover {
-  background-color: rgb(237, 234, 234);
+  background-color: rgb(241, 239, 239);
   color:black;
   padding: 0.4rem;
 }
